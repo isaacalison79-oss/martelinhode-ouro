@@ -1,0 +1,137 @@
+
+h1 {
+    background: linear-gradient(90deg, gold, white, gold);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: brilho 2s linear infinite;
+}
+
+@keyframes brilho {
+    0% { background-position: -100%; }
+    100% { background-position: 100%; }
+}
+
+
+li{
+    font-size: 20px;
+   -webkit-text-stroke: 0.3px gold;
+}
+li2{
+    color: red;
+    font-size: 20px;
+}
+.imagens {
+    display: flex;
+    gap: 20px; 
+}
+.imagens img {
+    border: 2px solid gold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.imagens img:hover {
+    transform: scale(1.05); 
+}
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+h2{
+    color: red;
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+
+}
+img{
+    border: 2px solid gold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+img:hover{
+    transform: scale(1.05); 
+}
+h1t{
+    font-size: 2em;
+    color: gold;
+    -webkit-text-stroke: 1px black;
+
+}
+.footer {
+    background-color: #807e7e;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid rgb(182, 155, 3);
+}
+
+.footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+.header {
+    background: linear-gradient(to right, #000, #ffffff);
+    color: gold;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid gold;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ddd;
+}
+.opcoes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.opcoes button {
+    background-color: black;
+    color: gold;
+    border: 2px solid gold;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+.opcoes button:hover {
+    background-color: gold;
+    color: black;
+}
+.footer:hover {
+    background: linear-gradient(to right, #111, #444);
+}
+header:hover {
+    background: linear-gradient(to right, #111, #444);
+}
+.zap {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.zap:hover {
+    transform: scale(1.1);
+}
